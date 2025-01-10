@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(135deg, #f6d365, #fda085); /* Warm gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 600px; /* Ensure the container is not too wide */
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: center; /* Center contents horizontally */
+    justify-content: center; /* Center contents vertically */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffdfba; /* Light cream color */
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    width: 100%; /* Make the image responsive */
+    max-width: 300px; /* Set a maximum width */
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    transition: 0.3s;
+    width: 60%; /* Add width for buttons so they don't stretch too wide */
+    max-width: 250px; /* Ensure button does not go too wide */
+}
+
+button:hover {
+    background: linear-gradient(to right, #fad0c4, #ff9a9e);
+    transform: scale(1.05);
+}

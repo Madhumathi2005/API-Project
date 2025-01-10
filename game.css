@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(45deg, #fbc2eb, #a6c1ee); /* Soft, warm gradient from pink to light blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.game-container {
+    background: rgba(255, 255, 255, 0.7); /* Soft semi-transparent white for lightness */
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Light shadow effect for depth */
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    color: #2f80ed; /* Bold and vibrant blue for energy */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Dynamic, soft shadow to add depth */
+}
+
+p {
+    font-size: 1.2em;
+    margin: 15px 0;
+    color: #555; /* Soft dark color for legibility */
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 25px; /* Rounded corners for a smoother look */
+    cursor: pointer;
+    transition: 0.3s;
+    background: linear-gradient(to right, #ff6b6b, #f06595); /* Gradient of vibrant coral and pink */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: linear-gradient(to right, #f06595, #ff6b6b); /* Reversed gradient on hover */
+    transform: scale(1.05);
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333; /* Contrasting dark color for readability */
+}
+
+.back-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: linear-gradient(to right, #ffb93e, #ff805f); /* A warm gradient that matches the theme */
+    color: white;
+    font-size: 1.2em;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}

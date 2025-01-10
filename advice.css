@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(to right, #89f7fe, #66a6ff); /* Changed colors to cool tones */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 50, 0.8); /* Deep blue-black background with transparency */
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 50, 0.5); /* Enhanced shadow for better contrast */
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #a1ffce; /* Fresh greenish accent for the heading */
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #e0e0e0; /* Light gray for better readability on dark background */
+}
+
+button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #45cafc, #7b92ff); /* Vibrant blue gradient */
+    transition: 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 50, 0.3); /* Subtle shadow */
+}
+
+button:hover {
+    background: linear-gradient(to right, #7b92ff, #45cafc); /* Gradient reversal */
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 50, 0.5); /* Stronger hover shadow */
+}
