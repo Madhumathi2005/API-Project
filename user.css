@@ -2,21 +2,21 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Verdana', sans-serif;
-    background: linear-gradient(to right, #fbc2eb, #a18cd1); /* Light pastel gradient for a soft, welcoming vibe */
+    background: linear-gradient(to right, #fbc2eb, #a18cd1); 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: #2c3e50; /* Darker color for text to provide contrast against the light background */
+    color: #2c3e50;
 }
 
 .container {
     text-align: center;
-    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white for brightness */
-    color: #2c3e50; /* Matching text color for contrast */
+    background: rgba(255, 255, 255, 0.9); 
+    color: #2c3e50; 
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Soft shadows for a gentle, clean effect */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); 
     width: 90%;
     max-width: 600px;
 }
@@ -24,13 +24,13 @@ body {
 h1 {
     font-size: 2.8em;
     margin-bottom: 20px;
-    color: #2c3e50; /* Soft sky-blue for a calm and attractive touch */
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Light shadow for the header */
+    color: #2c3e50; 
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }
 
 p {
     font-size: 1.2em;
-    color: #7f8c8d; /* Soft grey color for content */
+    color: #7f8c8d; 
     margin: 15px 0;
     line-height: 1.6;
 }
@@ -40,8 +40,8 @@ img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #3498db; /* Blue border to complement the heading */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for a gentle focus */
+    border: 5px solid #3498db; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
 }
 
 button {
@@ -50,20 +50,20 @@ button {
     font-size: 1.2em;
     color: white;
     border: none;
-    border-radius: 25px; /* Sleek rounded button for smooth elegance */
+    border-radius: 25px; 
     cursor: pointer;
-    background: linear-gradient(to right, #f39c12, #ff6f61); /* Warm gradient of yellow and coral */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect for button emphasis */
+    background: linear-gradient(to right, #f39c12, #ff6f61); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
     transition: all 0.3s ease;
 }
 
 button:hover {
-    background: linear-gradient(to right, #ff6f61, #f39c12); /* Reverse gradient effect on hover */
-    transform: scale(1.05); /* Slight scale-up effect to grab attention */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    background: linear-gradient(to right, #ff6f61, #f39c12); 
+    transform: scale(1.05); 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
 }
 
 button:active {
-    transform: scale(1.03); /* Slight shrink on active for visual feedback */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Focused shadow on active click */
+    transform: scale(1.03); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); 
 }
