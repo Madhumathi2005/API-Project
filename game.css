@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Verdana', sans-serif;
-    background: linear-gradient(45deg, #fbc2eb, #a6c1ee); /* Soft, warm gradient from pink to light blue */
+    background: linear-gradient(45deg, #fbc2eb, #a6c1ee);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,11 +11,11 @@ body {
 }
 
 .game-container {
-    background: rgba(255, 255, 255, 0.7); /* Soft semi-transparent white for lightness */
+    background: rgba(255, 255, 255, 0.7);
     padding: 40px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Light shadow effect for depth */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
     width: 90%;
     max-width: 600px;
 }
@@ -23,14 +23,14 @@ body {
 h1 {
     font-size: 3em;
     margin-bottom: 15px;
-    color: #2f80ed; /* Bold and vibrant blue for energy */
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Dynamic, soft shadow to add depth */
+    color: #2f80ed; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); 
 }
 
 p {
     font-size: 1.2em;
     margin: 15px 0;
-    color: #555; /* Soft dark color for legibility */
+    color: #555;
 }
 
 .buttons {
@@ -43,15 +43,15 @@ button {
     margin: 10px;
     color: white;
     border: none;
-    border-radius: 25px; /* Rounded corners for a smoother look */
+    border-radius: 25px; 
     cursor: pointer;
     transition: 0.3s;
-    background: linear-gradient(to right, #ff6b6b, #f06595); /* Gradient of vibrant coral and pink */
+    background: linear-gradient(to right, #ff6b6b, #f06595); 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
-    background: linear-gradient(to right, #f06595, #ff6b6b); /* Reversed gradient on hover */
+    background: linear-gradient(to right, #f06595, #ff6b6b); 
     transform: scale(1.05);
 }
 
@@ -59,13 +59,13 @@ button:hover {
     margin-top: 20px;
     font-size: 1.5em;
     font-weight: bold;
-    color: #333; /* Contrasting dark color for readability */
+    color: #333; 
 }
 
 .back-btn {
     margin-top: 20px;
     padding: 12px 24px;
-    background: linear-gradient(to right, #ffb93e, #ff805f); /* A warm gradient that matches the theme */
+    background: linear-gradient(to right, #ffb93e, #ff805f); 
     color: white;
     font-size: 1.2em;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
